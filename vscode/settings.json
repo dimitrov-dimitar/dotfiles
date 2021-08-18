@@ -1,0 +1,45 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.runInTerminal": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.rulers": [
+            79,
+        ],
+    },
+    "editor.renderWhitespace": "all",
+    "code-runner.fileDirectoryAsCwd": true,
+    "python.terminal.executeInFileDir": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "debug.javascript.autoAttachFilter": "always",
+    "debug.inlineValues": true,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    // "editor.fontLigatures": true
+    "editor.formatOnSave": false,
+    "window.autoDetectColorScheme": false, // required!
+    "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "sundial.interval": 10,
+    "sundial.autoLocale": true,
+    "python.showStartPage": false,
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.tabs.enabled": false,
+
+    // Prettier
+    // "prettier.tabWidth": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.defaultFormatter": "vscode.html-language-features",
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.tabSize": 2
+    },
+}
