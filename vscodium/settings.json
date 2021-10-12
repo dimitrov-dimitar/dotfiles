@@ -6,16 +6,19 @@
         "editor.defaultFormatter": "ms-python.python",
         "editor.rulers": [
             79,
+            120
         ],
     },
     "editor.renderWhitespace": "all",
     "code-runner.fileDirectoryAsCwd": true,
     "python.terminal.executeInFileDir": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft",
+    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Jedi",
     "debug.javascript.autoAttachFilter": "always",
     "debug.inlineValues": true,
+    
+    // Fonts
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     // "editor.fontLigatures": true
     "editor.formatOnSave": false,
@@ -24,9 +27,20 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "sundial.interval": 10,
     "sundial.autoLocale": true,
-    "python.showStartPage": false,
+    // "python.showStartPage": false,
     "workbench.colorTheme": "Dracula",
     "terminal.integrated.tabs.enabled": false,
+
+    "python.analysis.typeCheckingMode": "strict",
+
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {"django-html": "html"},
+
 
     // Prettier
     // "prettier.tabWidth": 4,
@@ -41,5 +55,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         // "editor.tabSize": 2
     },
-    "window.zoomLevel": 2,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "window.zoomLevel": 2
 }
