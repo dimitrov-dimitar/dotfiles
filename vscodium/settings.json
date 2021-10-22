@@ -13,8 +13,7 @@
     "code-runner.fileDirectoryAsCwd": true,
     "python.terminal.executeInFileDir": true,
     "editor.suggestSelection": "first",
-    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Default",
     "debug.javascript.autoAttachFilter": "always",
     "debug.inlineValues": true,
     
@@ -27,7 +26,6 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "sundial.interval": 10,
     "sundial.autoLocale": true,
-    // "python.showStartPage": false,
     "workbench.colorTheme": "Dracula",
     "terminal.integrated.tabs.enabled": false,
 
